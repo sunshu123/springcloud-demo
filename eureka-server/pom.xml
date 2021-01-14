@@ -16,4 +16,12 @@
 	<packaging>jar</packaging>
 	<name>eureka-server</name>
 	<description>Demo project for Spring Boot</description>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+		</dependency>
+	</dependencies>
 </project>
